@@ -6,4 +6,7 @@ for i in arr:
         un.append(i)
     elif i not in du:
         du.append(i)
-print(*du)
+if(len(du)!=0):
+    print(*du)
+else:
+    print("unique")
