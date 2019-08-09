@@ -1,3 +1,4 @@
+n=int(input())
 arr=[int(x) for x in input().split()]
 un,du=[],[]
 for i in arr:
