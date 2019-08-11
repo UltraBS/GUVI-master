@@ -1,4 +1,4 @@
-n=int(input())
+n,c=int(input()),0
 nums=[int(x) for x in input().split()]
 for i in nums:
     if(nums.count(i)>1):
